@@ -7,10 +7,10 @@ var btnReset = document.getElementById('reset');
 var PADDING = 10;
 var HEADER_HEIGHT = 200;
 
-var width = window.innerWidth - PADDING;
-var height = window.innerHeight - PADDING - HEADER_HEIGHT;
-
-var canvasSize = Math.min(width, height);
+//var width = window.innerWidth - PADDING;
+//var height = window.innerHeight - PADDING - HEADER_HEIGHT;
+//var canvasSize = Math.min(width, height);
+var canvasSize = 100;
 
 var maxJumpLength = 20;
 
